@@ -1,0 +1,6 @@
+name: Ajax Module
+description: Ajax custom module
+package: Custom Modules
+
+type: module
+core: 8.x

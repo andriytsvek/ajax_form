@@ -1,0 +1,15 @@
+ajax_module.list:
+  path: '/ajax_list'
+  defaults:
+    _form: '\Drupal\ajax_module\Form\AjaxList'
+    _title: 'AJAX List'
+  requirements:
+    _permission: 'access content'
+
+ajax_module.select:
+  path: '/ajax_select'
+  defaults:
+    _form: '\Drupal\ajax_module\Form\AjaxSelect'
+    _title: 'AJAX Select'
+  requirements:
+    _permission: 'access content'
